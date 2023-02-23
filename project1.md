@@ -20,3 +20,12 @@ On web ![public Address](./images/curl-on-web.PNG)
 `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';` setting default password ![default password](./images/change%20msql%20password.PNG)
 
 `sudo mysql_secure_installation` Changing the default password ![default password](./images/change-password.PNG)
+
+
+## Installing PHP
+
+`sudo apt install php-fpm php-mysql` Installing PHP ![Install PHP](./images/installing%20php.PNG)
+
+`sudo mkdir /var/www/projectlamp` Creating a virtual host and also creating the directory for project lamb, `sudo a2ensite projectlamp` to enable the new virtual host after creating a new configuration ![VIRTUAL HOST USING APACHE](./images/dns%20name%20virtual%20host.PNG)
+
+`sudo vim /etc/apache2/mods-enabled/dir.conf` to change the behavior from index.html to index.php, `vim /var/www/projectlamp/index.php` to add our valid PHP code ![ENABLING PHP](./images/Enabling%20php%20result.PNG)
