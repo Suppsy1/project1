@@ -28,4 +28,4 @@ On web ![public Address](./images/curl-on-web.PNG)
 
 `sudo mkdir /var/www/projectlamp` Creating a virtual host and also creating the directory for project lamb, `sudo a2ensite projectlamp` to enable the new virtual host after creating a new configuration ![VIRTUAL HOST USING APACHE](./images/dns%20name%20virtual%20host.PNG)
 
-`sudo vim /etc/apache2/mods-enabled/dir.conf` to change the behavior from index.html to index.php, `vim /var/www/projectlamp/index.php` to add our valid PHP code ![ENABLING PHP](./images/Enabling%20php%20result.PNG)
+`sudo vim /etc/apache2/mods-enabled/dir.conf` to change the behavior from index.html to index.php, `vim /var/www/projectlamp/index.php` to add our valid PHP code ![ENABLING PHP](./images/Enabling%20php%20result.PNG) 
